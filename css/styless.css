@@ -324,3 +324,11 @@
        text-decoration: none;
        color: #0D0D0D;
    }
+.canva {
+    display: block;
+}
+.css3 {
+    width: 230px;
+    display: block;
+    align-items: center;
+}
