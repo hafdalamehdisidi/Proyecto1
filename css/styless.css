@@ -29,7 +29,7 @@
        font-weight: 700;
        color: #0D0D0D;
        text-decoration: none;
-       font-size: 50px;
+       font-size: 25px;
        text-transform: uppercase;
        letter-spacing: 2px;
        transition: 1s;
@@ -54,7 +54,7 @@
        font-weight: 500px;
        transition: 0.6s;
        margin-right: 60px;
-       font-size: 20px;
+       font-size: 16px;
    }
    .banner {
        position: relative;
@@ -358,17 +358,13 @@
      color: #159A9C;
      transition: all;
  }
-
-
-
-.grid {
+ .grid {
     position: relative;
     width: 100%;
     opacity: 0;
     transition: opacity 0.5s linear 1s;
 }
-
-.grid.imagenes-cargadas {
+ .grid.imagenes-cargadas {
     opacity: 1;
 }
 
@@ -492,7 +488,7 @@ footer .creado-por {
     margin-bottom: 40px;
     text-align: center;
     font-size: 14px;
-    color: #FFFFFFHaf;
+    color: #FFFFFF;
     background: #0D0D0D;
 }
 
