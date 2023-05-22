@@ -244,6 +244,8 @@
       cursor: pointer;
       justify-content: center;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
+      margin-left: 250px;
+      bottom: 340px;
   }
 
   .card-manuel::before {
@@ -313,33 +315,8 @@
       background-color: rgba(128, 128, 128, 0.137);
   }
 
-  .btn4:hover {
-      width: 95%;
-      padding: 10px;
-      border-radius: 10px;
-      outline: none;
-      border: none;
-      transform: translateY(10px);
-      background: #159A9C;
-      color: #D92525;
-      font-weight: 600;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
-      cursor: pointer;
-  }
 
-  .btn4:hover:hover {
-      background: #0D0D0D;
-  }
-  .card-manuel{
-    margin-left: 1500px;
-    bottom: 340px;
-  }
-  .card-manuel .img:hover {
-    transition: transform .2s;
-  }
-.card-manuel .img:hover {
-     transform: scale(1.75);
-        }      
+
  .tools {
      display: block;
      font-size: 70px;
