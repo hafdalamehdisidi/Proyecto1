@@ -307,28 +307,40 @@
       border-radius: 10px;
       text-align: center;
   }
-
   .box:hover {
       background-color: rgba(128, 128, 128, 0.137);
   }
-  .tools {
+.tittle2 {
        display: block;
        padding: 18px;
        font-size: 70px;
        padding-left: 200px;
        text-decoration: none;
-       color: #0D0D0D;
        text-align: center;
+       color:#0D0D0D;
+       bottom: 400px;
    }
-.tools a {
-       text-decoration: none;
-       color: #0D0D0D;
+
+ h2.tittle2 a:hover {
+       color: #159A9C;
    }
-.canva {
-    display: block;
+div.imgtools {
+    margin: 0 0 0 300px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 512px;
 }
-.css3 {
-    width: 230px;
-    display: block;
-    align-items: center;
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
